@@ -1,2 +1,11 @@
 # Predictive-Modelling-
 Predicting Motor Skill Challenges in Students: Harnessing Machine Learning to Decode Handwritten Numbers
+
+INTRODUCTION
+Business Problem: The school is trying to identify students who may need help with their motor skills at a young age. They want to use a writing test to determine if students are struggling with writing numbers. They believe that if they can accurately predict what students have written, they can identify those who need help with their motor skills. The school is interested in building a model that can accurately classify what students have written.
+
+The ability to write numbers is an important skill for students to develop, and it can be an indicator of their motor skills development. The school is interested in using a writing test to identify students who may need help with their motor skills at a young age. In this project, we will be building a classification model using KNN, Random forest and neural networks to predict what students have written based on the numbers they have drawn. The dataset provided contains images of numbers that students have written, along with labels indicating what number is being represented. We will be using this dataset to train and evaluate our models. Our goal is to build a model that can accurately classify what students have written, with the hope of identifying those who may need extra help with their motor skills.
+
+I will be comparing the performance of KNN, Random forest and neural networks to see which model performs better on this task. The school is interested in using a simplistic approach like KNN to start the research, but we will also be exploring more complex models like neural networks. Ultimately, the goal is to find a model that can accurately predict what students have written, and use this information to identify those who may need extra help.
+
+Dataset description: The dataset contains images of handwritten digits (0 to 9) with their respective labels. It has 42000 rows and 46 columns. The first column ('label') contains the labels, while the remaining columns ('pixel43', 'pixel44', etc.) contain the pixel values of each image. Each image is a 28x28 pixel grayscale image, and each pixel is represented by an integer value between 0 and 255, inclusive.
